@@ -5,22 +5,26 @@ Youdao Dictionary For Linux Command Line
 
 ### fanyi 命令
 输入命令 `fanyi capacity`：
-
-        [root@elekids bin]# fanyi capacity
-        能力
+```
+[root@elekids bin]# fanyi capacity
+能力
+```
 
 如果需要更加详细的网络翻译结果增加 `-d(detail) ` 参数即可：
-        [root@elekids ~]# fanyi -d hostname
-        主机名  hostname /'həust,neim/
-        
-        基本释义: n. 主机名称；主名
-        
-        网络释义:
-        Hostname | 主机名称 显示 设置系统网络名
-        Invalid Hostname | 其表现为 无效的主机名 无效主机名
-        alias hostname | 别名主机名
+```
+[root@elekids ~]# fanyi -d hostname
+主机名  hostname /'həust,neim/
 
+基本释义: n. 主机名称；主名
+
+网络释义:
+Hostname | 主机名称 显示 设置系统网络名
+Invalid Hostname | 其表现为 无效的主机名 无效主机名
+alias hostname | 别名主机名
+```
 ###  获取该命令
-        cd /bin 
-        wget http://api.ijustplay.cn/youdao/fanyi
-        chmod 777 fanyi
+```
+cd /bin 
+wget http://api.ijustplay.cn/youdao/fanyi
+chmod 777 fanyi
+```
