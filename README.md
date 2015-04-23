@@ -19,3 +19,8 @@ Youdao Dictionary For Linux Command Line
     Hostname | 主机名称 显示 设置系统网络名
     Invalid Hostname | 其表现为 无效的主机名 无效主机名
     alias hostname | 别名主机名
+
+###  获取该命令
+    cd /bin 
+    wget http://api.ijustplay.cn/youdao/fanyi
+    chmod 777 fanyi
