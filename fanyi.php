@@ -12,7 +12,7 @@
       echo "\n";
       
       //解释
-      echo "\n\e[1;31m基本释义\e[0m: ";
+      echo "\n\e[1;31m基本释义:\e[0m ";
       foreach($trans['basic']['explains'] as $item) echo $item."\n";
 
       //网络释义
