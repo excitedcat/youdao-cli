@@ -7,17 +7,16 @@
   switch ($parameter) {
     case '-d':
       //翻译及音标
-      echo "\n";
       foreach($trans['translation'] as $item) echo $item." | ";
       echo $trans['query'].' /'.$trans['basic']['phonetic'].'/ ';
       echo "\n";
       
       //解释
-      echo "\n";
+      echo "\n\e[1;31m基本释义\e[0m: ";
       foreach($trans['basic']['explains'] as $item) echo $item."\n";
 
       //网络释义
-      echo "\n----------------- web -----------------\n";
+      echo "\n\e[1;32m网络释义:\e[0m\n";
       foreach($trans['web'] as $webitem){
         echo $webitem['key'].' | ';
         foreach($webitem['value'] as $item) echo $item." ";
