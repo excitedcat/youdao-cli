@@ -1,0 +1,3 @@
+#!/bin/sh
+GET http://api.ijustplay.cn/youdao/fanyi.php?word=$1$2
+echo -e '\r'
