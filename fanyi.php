@@ -6,9 +6,20 @@
   
   switch ($parameter) {
     case '-d':
+      echo "\n";
       //翻译及音标
-      foreach($trans['translation'] as $item) echo $item." | ";
-      echo $trans['query'].' /'.$trans['basic']['phonetic'].'/ ';
+      $translation = $trans['translation'];
+      $phonetic    = $trans['basic']['phonetic'];
+      
+      //输出释义
+      if(count($translation) == 1)
+        echo "\033[44;37;5m ".$translation[0]." \033[0m ";
+      else
+        foreach($translation as $item) echo $item." | ";
+      
+      //输出音标
+      if(isset($phonetic)) 
+        echo $trans['query'].' /'.$trans['basic']['phonetic'].'/ ';
       echo "\n";
       
       //解释
