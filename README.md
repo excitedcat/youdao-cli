@@ -3,6 +3,8 @@ Youdao Dictionary For Linux Command Line
 
 > 在使用Linux Shell 的时候碰到不认识的单词怎么办？从现在起你不需要拷贝-粘贴到词典软件里查询了，一条简单的命令就可以帮助你翻译！
 
+![Youdao-For-Linux](http://ijustplay-wp.qiniudn.com/wp-content/uploads/2015/03/shell-youdao-trans.png)
+
 ### fanyi 命令
 输入命令 `fanyi capacity`：
 ```
